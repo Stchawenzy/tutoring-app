@@ -11,7 +11,7 @@ const express = require("express");
 const app = express();
 
 const dotenv = require("dotenv");
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 5000;
 dotenv.config();
 const url = process.env.MONGODB_URI;
 
